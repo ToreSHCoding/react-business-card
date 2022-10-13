@@ -1,0 +1,141 @@
+* {
+    box-sizing: border-box;
+}
+
+.app {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #23252C;
+    font-family: 'inter';
+    width: 700px;
+    margin: 0 auto;
+    border-radius: 30px;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #1A1B21;
+    color: white;
+    width: 700px;
+    border-radius: 50px 50px 0 0;
+}
+
+.info__img {
+    background-color: #1A1B21;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 50px 50px 0 0;
+    /* object-position: -100% 0; */
+}
+
+.info__title {
+    font-size: 3rem;
+    margin-top: 1em;
+    margin-bottom: -.2em;
+    font-weight: 700;
+}
+
+.info__subtitle {
+    font-size: 1.5rem;
+    font-weight: 400;
+    color: #f3bf99;
+}
+
+.info__website-link {
+    font-size: 1.2rem;
+    color: white;
+    text-decoration: none;
+}
+
+.info__btn-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1.5em 3em;
+    font-size: 1.5rem;
+}
+
+.btn-container__email-btn {
+    font-family: 'inter';
+    text-decoration: none;
+    color: #374151;
+    padding: .5em 1em;
+    background-color: #D1D5DB;
+    border-radius: 6px;
+    margin-right: 1em;
+}
+
+.btn-container__linkedin-btn {
+    font-family: 'inter';
+    text-decoration: none;
+    color: white;
+    padding: .5em 1em;
+    background-color: #5093E2;
+    border-radius: 6px;
+}
+
+.icons {
+    margin-right: 1em;
+}
+
+.about {
+    background-color: #1A1B21;
+    /* width: inherit; */
+    display: flex;
+    flex-direction: column;
+    padding: 0 5em;
+    color: white;
+}
+
+.about__title {
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-bottom: -.2em;
+}
+
+.about > p {
+    font-size: 1.5rem;
+    font-weight: 400;
+    line-height: 1.5;
+}
+
+.interests {
+    background-color: #1A1B21;
+    /* width: inherit; */
+    display: flex;
+    flex-direction: column;
+    padding: 0 5em;
+    color: white;
+}
+
+.interests__title {
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-bottom: -.2em;
+}
+
+.interests > p {
+    font-size: 1.5rem;
+    font-weight: 400;
+    line-height: 1.5;
+    margin-bottom: 4em;
+}
+
+.footer {
+    background-color: #161619;
+    width: inherit;
+    border-radius: 0 0 50px 50px;
+    display: flex;
+    justify-content: space-between;
+    padding: 1em 9em;
+}
+
+.footer > a {
+    font-size: 3rem;
+    text-decoration: none;
+    color: #918E9B;
+}
